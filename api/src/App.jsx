@@ -53,7 +53,7 @@ function App() {
       {filteredData.map((item) => (
         <div>
           <h1>{item.title}</h1>
-          <img src={item.image } alt=''></img>
+          <img style={{width:100px,height:100px}}src={item.image } alt=''></img>
         </div>
       ))}
     </div>
